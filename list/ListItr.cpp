@@ -1,8 +1,9 @@
+#include"ListNode.cpp"
 template <class Object>
 class ListItr
 {
 private:
-	ListItr(ListNode<Object> *theNode):current(theNode);
+	ListItr(ListNode<Object> *theNode):current(theNode){};
 	ListNode<Object> *current;
 	friend class List<Object>;
 
@@ -30,4 +31,4 @@ public:
 		return current->element;
 	}
 
-}
+};
