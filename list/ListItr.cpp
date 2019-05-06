@@ -1,4 +1,5 @@
 #include"ListNode.cpp"
+#define NULL 0
 template <class Object>
 class ListItr
 {
@@ -27,7 +28,8 @@ public:
 	const Object & retrieve() const
 	{
 		if(isPastEnd())
-			throw BadIterator();
+			//throw BadIterator();
+			;
 		return current->element;
 	}
 

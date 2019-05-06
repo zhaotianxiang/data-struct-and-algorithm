@@ -1,5 +1,3 @@
-#define NULL 0
-
 template <class Object>
 class List;
 
@@ -9,7 +7,7 @@ class ListItr;
 template <class Object>
 class ListNode
 {
-	ListNode(const Object & theElement = Object(), ListNode * n =NULL):element(theElement),next(n){}
+	ListNode(const Object & theElement = Object(), ListNode * n = 0):element(theElement),next(n){}
 
 	Object element;
 	ListNode *next;
