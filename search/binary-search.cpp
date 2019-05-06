@@ -1,7 +1,9 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+
 bool BinarySearch(int,vector<int>,int,int);
+
 int main(){
 	cout<<"hello word"<<endl;
 	vector<int> vec;
