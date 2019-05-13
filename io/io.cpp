@@ -6,7 +6,6 @@ using namespace std;
 int main()
 {
 	char str[100];
-/**
 	// 1. C++ 第一种输入方式， 输入的string
 	while(cin >> str ) // 这种 cin >> str 是以空格的方式输入到了string中
 	{
@@ -31,7 +30,6 @@ int main()
 			cout << i << endl;
 		}
 	}
-**/
 
 	// 2. C++ 第二种输入方式， 直接获取一整行到字符串数组当中
 	// istream& getline (char* s, streamsize n )
