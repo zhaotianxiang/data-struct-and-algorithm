@@ -38,9 +38,9 @@ void sort(int a[], int left, int right)
 
 int main()
 {
-    int a[] = {50,1,9,20,299,30,2,99,100};
+    int a[] = {9,8,7,6,5,4,3,2,1};
     sort(a, 0, sizeof(a)/sizeof(a[0])-1);
-    for(auto i =0; i < sizeof(a)/sizeof(a[0]); ++i)
+    for(int i =0; i < sizeof(a)/sizeof(a[0]); ++i)
     {
 		cout << a[i] << endl;
     }
