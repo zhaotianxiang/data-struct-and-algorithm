@@ -35,9 +35,15 @@ int main()
 
 	// 2. C++ 第二种输入方式， 直接获取一整行到字符串数组当中
 	// istream& getline (char* s, streamsize n )
-	while(cin.getline(str, 100))
-	{
-		cout << str << endl;
+	//while(cin.getline(str, 100))
+	//{
+	//	cout << str << endl;
+	//}
+	string s;
+	getline(cin, s);
+	for(int i=0; i<s.size(); ++i){
+	
+		cout << s[i] << " ";
 	}
 
 	return 0;
